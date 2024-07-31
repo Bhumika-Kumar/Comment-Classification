@@ -2,7 +2,8 @@ This repository contains a comprehensive system for classifying social media com
 comment interactions by categorizing comments, removing toxic content, and providing automated responses based on comment classification. 
 
 
-Steps for the Automated System
+Steps for the Automated System:
+
 1.Data Collection:
 Collect a dataset of social media comments that include examples of each category.
 
