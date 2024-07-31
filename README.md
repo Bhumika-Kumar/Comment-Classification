@@ -3,24 +3,23 @@ comment interactions by categorizing comments, removing toxic content, and provi
 
 
 Steps for the Automated System
-Data Collection:
-
+1.Data Collection:
 Collect a dataset of social media comments that include examples of each category.
-Data Preprocessing:
 
+2.Data Preprocessing:
 Clean and preprocess the text data (e.g., remove special characters, normalize text).
-Feature Extraction:
 
+3.Feature Extraction:
 Convert text data into numerical features using techniques like TF-IDF or word embeddings.
-Model Training:
 
-Train a multi-class classifier to categorize comments. You can use models like XGBoost, BERT, or any other suitable classifier.
-Toxic Comment Removal:
-
+4.Model Training:
+Train a multi-class classifier to categorize comments. You can use models like XGBoost, BERT, or any other suitable classifier
+.
+5.Toxic Comment Removal:
 Implement a toxicity detection model to filter out toxic comments before classification.
-Automated Responses:
 
+6.Automated Responses:
 Set up predefined responses for each category to automate responses to comments.
-Integration:
 
+7.Integration:
 Integrate the classification and response system into your application.
